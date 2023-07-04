@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 10 May, 2023 6:34 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.3.1
+WORDPRESS:	6.2
+PHP INFO:	8.2.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 44MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 1 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][ISSUE] MSG:Creation of dynamic property DUP_Database::$sameNameTableExists is deprecated [CODE:8192|FILE:C:\xampp\htdocs\shop\wp-content\plugins\duplicator\classes\package\class.pack.database.php|LINE:761]
+do_action('wp_ajax_duplicator_duparchive_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Database->rewriteTableNameAs, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20230510_shop_5f6f6d51def8944c1906_20230510063413_database.sql
+SQL FILE SIZE: 928.02KB (950293)
+SQL FILE TIME: 2023-05-10 06:34:24
+SQL RUNTIME: 2.91 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/shop
+ARCHIVE FILE: 20230510_shop_5f6f6d51def8944c1906_20230510063413_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	97.57MB
+STATS:	Dirs 606 | Files 4,429 | Total 5,035
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 39.86MB
+ARCHIVE RUNTIME: 54.17 sec.
+MEMORY STACK: 46MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 928.02KB
+INSTALLER FILE: 95.19KB
+ARCHIVE FILE: 39.86MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,773
+ACTUAL FILE/DIRECTORY COUNT: 5,774
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 54.18 sec.
+PEAK PHP MEMORY USED: 46MB
+DONE PROCESSING => 20230510_shop 2023-05-10 06:35:16
+
